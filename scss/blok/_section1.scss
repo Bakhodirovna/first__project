@@ -1,0 +1,98 @@
+.cosmetics__images{
+    margin-top: 150px;
+    display: grid;
+    grid-template: 263px 263px / 393px 393px 393px;
+    grid-gap: 10px;
+    position: relative;
+    .img2{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 2;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 99999;
+        &__btn{
+            justify-self: center;
+            border: none;
+            background-color: violet;
+            padding: 5px;
+            color: black;
+            font-size: 18px;
+            font-family: 'Mulish';
+            font-weight: 500;
+            cursor: pointer;
+            position: absolute;
+            left: 38%;
+            top: 80%;
+            width: 300px;
+            height: 50px;
+            border-top-left-radius:50px ;
+            border-bottom-right-radius:50px ;
+            border-top-right-radius:10px ;
+            // border-bottom-left-radius:10px ;
+        }
+
+        &__list{
+            // left: 38%;
+            top: 86%;
+            list-style: none;
+            // background-color: rgb(236, 183, 236);
+            background-color: violet;
+            padding: 0;
+            width: 300px;
+            position: absolute;
+            border-top-right-radius:50px ;
+            border-bottom-right-radius:10px ;
+            // border-top-left-radius:10px ;
+            border-bottom-left-radius:10px ;
+            margin-top: 17px;
+
+            // top: 100%;
+            left: 50.5%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            // width: 100%;
+            height: 0;
+            overflow: hidden;
+            transition: all 0.5s ease-in-out; 
+            
+            &__show{
+                height: 380px; 
+            }            
+        }
+        &__item{
+            display: flex;
+            align-items: center;
+            font-style: 25px;
+            line-height: 25px;
+            font-weight: 500;
+            font-family: 'Mulish';
+            border-bottom: 1px solid white;
+            padding: 5px 25px;
+            cursor: pointer;
+            &:nth-child(10){
+                border: none;
+            }
+
+            &>span{
+                margin-left: auto;
+            }
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+        &__img{
+            width: 20px;
+            height: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+

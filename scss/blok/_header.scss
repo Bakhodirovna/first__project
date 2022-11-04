@@ -1,0 +1,105 @@
+.header{
+    position: fixed;
+    background: linear-gradient(90deg, #ee9ca7, #ffdde1, #e8acef);
+    // background: linear-gradient(99deg powderblue, pink);
+    height: 120px;
+    width: 100%;
+    padding: 30px 0px 12px 0px;
+    top: 0;
+    z-index: 999999;
+    &__box{
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        
+        a{
+            text-decoration: none;
+            font-family: 'Acme';
+            font-size: 38px;
+            background: linear-gradient(55deg, rgb(142, 47, 197), rgb(167, 55, 137));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .links{
+          margin-left: auto;
+        }
+        .link{
+          margin-left: 25px;
+          text-decoration: none;
+          font-family: 'Acme';
+          font-size: 18px;
+          background: linear-gradient(55deg, rgb(142, 47, 197), rgb(167, 55, 137));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        .search {
+            width: 400px;
+            background: linear-gradient(55deg, rgba(182, 60, 253,0.5), rgba(167, 55, 137,0.6));
+            border: none;
+            height: 40px;
+            border-radius: 18px;
+            display: flex;
+
+            &__input {
+                border: none;
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+                background: none;
+                width: 262px;
+                margin-left: 24px;
+                outline: none;
+    
+                &::placeholder {
+                    color: white;
+                    font-size: 16px;
+                  }
+                  
+                  &:focus {
+                    color: white;
+                  }
+                  
+                  &:valid {
+                    color: white;
+                  }
+              }   
+                     
+              &__btn {
+                margin-left: auto;
+                border-top-right-radius: inherit;
+                border-bottom-right-radius: inherit;
+                border: none ;
+                background-color: rgb(255, 255, 255);
+                width: 50px;
+                cursor: pointer;
+                &>svg>path {
+                  stroke: rgb(182, 60, 253);
+                }
+              }    
+          }
+
+          
+        .korzinka{
+            margin-left: 50px;
+            background: none;
+            border: none;
+            cursor: pointer;
+
+            &:active{
+                transform: translateY(2px);
+            }
+            &>img{
+                width: 40px;
+                height: 40px;
+            }
+        }  
+               
+    }
+}   

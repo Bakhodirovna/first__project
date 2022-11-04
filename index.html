@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beauty__cosmetics</title>
+    <link rel="shortcut icon" href="./images/cosmetic.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<!-- header style -->
+       <header class="header">
+           <div class="container">
+               <div class="header__box">
+                    <a href="./index.html">Love beauty</a>
+                    <div class="links">
+                        <a class="link" target="_blank" href="./dashboard_js/index.html">dashboard</a>
+                        <a class="link" target="_blank" href="./shop.js/index.html">other shop</a>
+                    </div>
+                    <div class="header__nav">
+                     <label for="search" class="search">
+                         <input class="search__input" id="search" type="text" placeholder="search products, categories ...">
+                         <button class="search__btn" id="search__btn">
+                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M9.19401 11.4333C11.7713 11.4333 13.8607 9.34394 13.8607 6.76661C13.8607 4.18928 11.7713 2.09995 9.19401 2.09995C6.61668 2.09995 4.52734 4.18928 4.52734 6.76661C4.52734 9.34394 6.61668 11.4333 9.19401 11.4333Z" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                             <path d="M5.81417 10.24L2.6875 13.3667" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"/></svg>
+                         </button>
+                     </label>
+                     <div class="basket" id="basket">
+                        <button class="korzinka" id="korzinka">
+                            <img src="./images/basket.svg" alt="corzina">
+                         </button>
+                        <div class="basket__box" id="basket__box">
+                            <!-- <div class="basket__cart">
+                                <img class="basket__img" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+                                <p class="cart__name"> 
+                                    Fjallraven - Foldsack
+                                </p>
+                                <span class="cart__price">$ 109.95</span>
+                                <button class="cart__btn">X</button>
+                            </div> -->
+                        </div>
+                    </div>
+                    </div>
+               </div>
+        </div>
+    </header>
+<!-- main style -->
+    <main class="container">
+<!--section-1  -->
+        <section class="cosmetics__images">
+            <div class="img">
+                <img src="./images/fon1.png" width="393" height="263" alt="cosmetic__photo">
+            </div>
+            <div class="img2">
+                <img src="./images/fon3.png" width="393" height="536" alt="cosmetic__photo">
+            </div>
+            <div class="img">
+                <img src="./images/fon4.png" width="393" height="263" alt="cosmetic__photo">
+            </div>
+            <div class="img">
+                <img src="./images/fon2.png" width="393" height="263" alt="cosmetic__photo">
+            </div>
+            <div class="img">
+                <img src="./images/fon5.png" width="393" height="263" alt="cosmetic__photo">
+            </div>
+            <div class="category">
+                <button class="category__btn" id="category">category</button>
+                   <ul class="category__list">
+                       <li id="box" class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/blush-ff7992c3d7690d18a9b0224177cfbdedbc036497cf87c393ec01c6a2ef070258.svg" alt="">Blush <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/bronzer-2d423487eea3e4571229bd95689bb4eb4331f05740f3921ede7c7c765c7954b1.svg" alt="">Bronzer <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/eyebrow-fc49d8d480ace717203a21fe863c2231970063add91ed2f15181fe8e2d3b96b9.svg" alt="">Eyebrow <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/eyeliner-de329b6d65d721a45190051af1153e23202df9eb1c393d1ac65972376ee42d50.svg" alt="">Eyeliner <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/eyeshadow-67f9f8fd19df1862c95122f9b3460c7e6674d5a6d178cde00e6e4be908dd898a.svg" alt="">Eyeshadow <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/foundation-9985c8a404d4a19cf7a2985ed504958cadd9f71252a73c90b6a7178bf7075143.svg" alt="">Foundation <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/lip_liner-3f40bb63957aa7d47e3a2d1356b9380aa093271e5d58f3518181fd427e388d93.svg" alt="">Lip liner <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/lipstick-4531b48ee71839393857e24c8cbc4dede1f99d2284ef82a6eb0a2a4d03540a14.svg" alt="">Lipstick <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/mascara-0deeeb81e58f31ddbff07847bfd0820e5ecdba1419f4281da743a05e0d6b3e69.svg" alt="">Mascara <span>></span></li>
+                       <li class="category__item"><img class="category__img" src="https://makeup-api.herokuapp.com/assets/nail_polish-a7e7204834c0c30e8b57a1ba9896656331e228b0daa09d1705d1ab29bc0b7151.svg" alt="">Nail polish <span>></span></li>
+                </ul>
+            </div>
+        </section>
+<!-- section-2 -->
+        <section class="brands">
+            <div class="brand__box" style="display: flex; align-items:center; justify-content:space-between;">
+                <h2 class="brands__title">popular brands</h2>
+                <!-- <button id="mey">maybeline</button> -->
+                <select name="brands__caty" id="brands__caty" class="brands__caty">
+                    <option value="maybelline">Maybelline</option>
+                    <option value="nyx">nyx</option>
+                    <option value="annabelle">annabelle</option>
+                    <option value="almay">almay</option>
+                </select>
+            </div>
+            <!-- <h3 class="brands__name">Maybelline</h3> -->
+                <div class="btn__box">
+                    <!-- <h3 class="brands__name">Maybelline</h3> -->
+                    <!-- <label for="search" class="search">
+                        <input class="search__input" id="search" type="text" placeholder="search products, categories ...">
+                        <button class="search__btn" id="search__btn">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.19401 11.4333C11.7713 11.4333 13.8607 9.34394 13.8607 6.76661C13.8607 4.18928 11.7713 2.09995 9.19401 2.09995C6.61668 2.09995 4.52734 4.18928 4.52734 6.76661C4.52734 9.34394 6.61668 11.4333 9.19401 11.4333Z" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                            <path d="M5.81417 10.24L2.6875 13.3667" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"/></svg>
+                        </button>
+                    </label> -->
+                    <select name="select" id="select" class="select">
+                        <option value="cream" id="cream" class="select__option">cream</option>
+                        <option value="powder" id="powder" class="powder">powder</option>
+                        <option value="lipstick" id="lipstick" class="lipstick">lipstick</option>
+                        <option value="liquid" id="liquid" class="liquid">liquid</option>
+                        <option value="pencil" id="pencil" class="pencil">pencil</option>
+                        <option value="mineral" id="mineral" class="mineral">mineral</option>
+                    </select>
+                    <button type="submit" id="sort" class="sort__btn btn"> 
+                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.128568 2.26839L2.31563 0.125478C2.48647 -0.0418526 2.7636 -0.0417991 2.93434 0.125478L5.12132 2.26839C5.39667 2.53812 5.20059 3.00001 4.81195 3.00001H3.5V11.5714C3.5 11.8081 3.30414 12 3.0625 12H2.1875C1.94586 12 1.75 11.8081 1.75 11.5714V3.00001H0.437935C0.0485329 3.00001 -0.146209 2.53758 0.128568 2.26839ZM6.5625 1.7143H13.5625C13.8041 1.7143 14 1.52243 14 1.28573V0.428584C14 0.191879 13.8041 1.34454e-05 13.5625 1.34454e-05H6.5625C6.32086 1.34454e-05 6.125 0.191879 6.125 0.428584V1.28573C6.125 1.52243 6.32086 1.7143 6.5625 1.7143ZM6.125 4.71429V3.85715C6.125 3.62045 6.32086 3.42858 6.5625 3.42858H11.8125C12.0541 3.42858 12.25 3.62045 12.25 3.85715V4.71429C12.25 4.951 12.0541 5.14287 11.8125 5.14287H6.5625C6.32086 5.14287 6.125 4.951 6.125 4.71429ZM6.125 11.5714V10.7143C6.125 10.4776 6.32086 10.2857 6.5625 10.2857H8.3125C8.55414 10.2857 8.75 10.4776 8.75 10.7143V11.5714C8.75 11.8081 8.55414 12 8.3125 12H6.5625C6.32086 12 6.125 11.8081 6.125 11.5714ZM6.125 8.14286V7.28572C6.125 7.04901 6.32086 6.85715 6.5625 6.85715H10.0625C10.3041 6.85715 10.5 7.04901 10.5 7.28572V8.14286C10.5 8.37957 10.3041 8.57143 10.0625 8.57143H6.5625C6.32086 8.57143 6.125 8.37957 6.125 8.14286Z" fill="#C5C7CD"/>
+                        </svg>sort by price                         
+                    </button>
+                </div>
+            <div class="brands__box" id="brands__box">
+                <!-- <div class="brands__card">
+                    <img src="http://127.0.0.1:5503/images/fon2.png" alt="" class="card__img">
+                    <div class="card__info">
+                        <p class="card__name">nyx</p>
+                        <p class="card__category">aaaaaaa</p>
+                        <p class="card__price">0.8$</p>
+                        <span class="card__color">hjhjhjhjhjh</span>
+                        <button id="btn__korzinka" class="card__korzinka">Add</button>
+                    </div>
+                </div> -->
+                
+            </div>
+           
+            <!-- <button class="card__all">ALL</button> -->
+            <div class="box">
+                <p class="box__title">Listing Blushes</p>
+                <div class="box__btns">
+                   <div class="filter">
+                        <p class="filter__name">filter by brands:</p>
+                        <select class="filter__select" name="brand" id="brand">
+                            <option value="nyx">nyx</option>
+                            <option value="marienatie">marienatie</option>
+                            <option value="glossier">glossier</option>
+                            <option value="clinique">clinique</option>
+                            <option value="dior">dior</option>
+                            <option value="iman">iman</option>
+                            <option value="maybelline">maybelline</option>
+                            <option value="milani">milani</option>
+                            <option value="stila">stila</option>
+                        </select>
+                   </div>
+                   <div class="sort">
+                        <button id="sort__price" class="sort__price">sort by price</button>
+                        <div class="sort__category">
+                            <p class="sort__category__name">sort by category:</p>
+                            <select  class="sort__select" name="category" id="category">
+                                <option value="powder">powder</option>
+                                <option value="cream">cream</option>
+                            </select>
+                        </div>
+                   </div>
+                </div>
+                <div class="box__list">
+                    <div class="box__item"></div>
+                </div>
+            </div>
+        </section>
+<!-- section-3 -->
+
+    </main>
+<!-- footer style -->
+    
+    
+    
+    
+    <!-- <div id="container" class="container">
+    
+    </div>
+    <template id="templete">
+        <div class="card">
+            <img src="" alt="" class="card-img">
+            <p class="card-title"></p>
+        </div>
+    </template> -->
+    <script src="./JS/main.js"></script>
+</body>
+</html>
